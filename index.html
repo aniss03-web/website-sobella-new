@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SOBELLA Cosmetics — Beauty, Confidence & Self Expression.">
+  <title>SOBELLA Cosmetics | Beauty That Feels Like You</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<header class="header" id="top">
+  <a class="brand" href="#home">
+    <img src="images/sobella-logo.png" alt="SOBELLA logo">
+    <span>SOBELLA<small>BEAUTY • CONFIDENCE • YOU</small></span>
+  </a>
+
+  <button class="menu-toggle" aria-label="Buka menu">☰</button>
+
+  <nav class="nav">
+    <a href="#home" class="active">Home</a>
+    <a href="#background">Founder</a>
+    <a href="#company">Company</a>
+    <a href="#problems">Problems</a>
+    <a href="#process">Process</a>
+    <a href="#solutions">Solutions</a>
+    <a href="#benefits">Benefits</a>
+    <a href="#products">Products</a>
+    <a href="#about">About Me</a>
+  </nav>
+
+  <button class="cart-button" id="cartBtn" aria-label="Buka troli">
+    🛍️ <span>Cart</span> <b id="cartCount">0</b>
+  </button>
+</header>
+
+<main>
+
+<!-- ================= HOME ================= -->
+<section class="hero section" id="home">
+  <div class="hero-copy">
+    <p class="eyebrow">WELCOME TO SOBELLA COSMETICS</p>
+    <h1>Beauty that feels<br><em>like you.</em></h1>
+    <p class="hero-text">
+      SOBELLA brings beauty, confidence and self-expression together through
+      thoughtfully selected cosmetics designed for modern women.
+    </p>
+
+    <div class="hero-actions">
+      <a href="#products" class="btn primary">Explore Collection →</a>
+      <a href="#about" class="btn ghost">Our Story</a>
+    </div>
+
+    <div class="hero-stats">
+      <div><strong>4</strong><span>Signature Products</span></div>
+      <div><strong>100%</strong><span>Confidence First</span></div>
+      <div><strong>∞</strong><span>Be Your Own Beauty</span></div>
+    </div>
+  </div>
+
+  <div class="hero-art">
+    <div class="glow"></div>
+    <img src="images/sobella-logo.png" alt="SOBELLA">
+  </div>
+</section>
+
+<section class="quote-strip">
+  <p>“Your face is your canvas. Your confidence is the masterpiece.”</p>
+</section>
+
+<!-- ================= FOUNDER BACKGROUND ================= -->
+<section class="section split" id="background">
+  <div class="image-card owner">
+    <img src="images/owner-sobella.png" alt="Wan Nur Syuhada Wan Norzie, founder of SoBella">
+  </div>
+
+  <div class="content">
+    <p class="eyebrow">01 • FOUNDER BACKGROUND</p>
+    <h2>The woman behind the <em>SOBELLA empire.</em></h2>
+    <p>
+      The owner and founder of the SoBella Cosmetics product empire is
+      <strong>Wan Nur Syuhada Wan Norzie (Syu)</strong>, originally from
+      <strong>Kelantan</strong>.
+    </p>
+
+    <div class="founder-details">
+      <div><span>POSITION</span><strong>Founder & CEO, SoBella Beauty Sdn. Bhd.</strong></div>
+      <div><span>ORIGIN</span><strong>Kelantan</strong></div>
+      <div><span>BUSINESS BEGINNING</span><strong>Started on a small scale from home with limited capital and a small number of agents before growing rapidly.</strong></div>
+      <div><span>ACHIEVEMENT</span><strong>Built a network that has empowered thousands of women entrepreneurs through SoBella Squad and established a multi-million-ringgit business building.</strong></div>
+    </div>
+
+    <div class="signature">
+      SOBELLA <span>— beauty, ambition & empowerment.</span>
+    </div>
+  </div>
+</section>
+
+<!-- ================= COMPANY BACKGROUND ================= -->
+<section class="section company-section" id="company">
+  <div class="company-photo">
+    <img src="images/sobella-hq-storefront.png" alt="SoBella Beauty headquarters in Kota Bharu, Kelantan">
+  </div>
+
+  <div class="content">
+    <p class="eyebrow">02 • COMPANY BACKGROUND</p>
+    <h2>From a small beginning to a <em>growing beauty empire.</em></h2>
+
+    <div class="company-details">
+      <div><span>COMPANY NAME</span><strong>SoBella Beauty Sdn. Bhd.</strong></div>
+      <div><span>FOUNDER</span><strong>Wan Nur Syuhada Wan Norzie (Syu)</strong></div>
+      <div><span>HEADQUARTERS</span><strong>PT 329, Ground Floor, Section 8, Jalan Merbau, 15300 Kota Bharu, Kelantan</strong></div>
+      <div><span>ESTABLISHED</span><strong>Operating since around 2016–2017</strong></div>
+    </div>
+
+    <h3 class="subheading">Main Products</h3>
+    <ul class="company-products">
+      <li>Lip Matte / Lip Oils</li>
+      <li>Blusher & Eyeshadow Palettes</li>
+      <li>Foundation & Face Makeup Tools</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ================= PROBLEMS ================= -->
+<section class="section tinted" id="problems">
+  <div class="section-heading">
+    <p class="eyebrow">03 • COSMETIC PROBLEMS</p>
+    <h2>Real concerns. <em>Better solutions.</em></h2>
+    <p>Common cosmetic concerns that may affect the customer experience:</p>
+  </div>
+
+  <div class="problem-grid five-cards">
+    <article>
+      <span>01</span>
+      <h3>Skin Irritation</h3>
+      <p><strong>Drawback:</strong> Some customers with sensitive skin may experience irritation or redness after using certain products.</p>
+    </article>
+
+    <article>
+      <span>02</span>
+      <h3>Foundation Shade Selection</h3>
+      <p><strong>Drawback:</strong> Customers may find it difficult to choose the right foundation shade because there are many shades and undertones.</p>
+    </article>
+
+    <article>
+      <span>03</span>
+      <h3>Complex Ingredient Information</h3>
+      <p><strong>Drawback:</strong> Ingredient lists may contain many technical names that are difficult for everyday customers to understand.</p>
+    </article>
+
+    <article>
+      <span>04</span>
+      <h3>Limited Product Reviews</h3>
+      <p><strong>Drawback:</strong> Some official product pages may show “Reviews (0)”, giving customers less information from other buyers' experiences.</p>
+    </article>
+
+    <article>
+      <span>05</span>
+      <h3>Fragrance Concern</h3>
+      <p><strong>Drawback:</strong> Some products list fragrance in their ingredients, which may be a concern for customers who are sensitive to fragrance.</p>
+    </article>
+  </div>
+</section>
+
+<!-- ================= PROCESS SOLUTION ================= -->
+<section class="section" id="process">
+  <div class="section-heading">
+    <p class="eyebrow">04 • PROCESS SOLUTION</p>
+    <h2>Step by step towards a <em>better beauty experience.</em></h2>
+    <p>Each customer concern is translated into a clear and practical solution process.</p>
+  </div>
+
+  <div class="process five-process">
+    <div>
+      <i>01</i>
+      <h3>Skin Compatibility Testing</h3>
+      <p><strong>Process solution:</strong> Conduct skin compatibility testing and provide clear patch-test guidance.</p>
+    </div>
+
+    <div>
+      <i>02</i>
+      <h3>Shade Identification</h3>
+      <p><strong>Process solution:</strong> Provide a shade guide and a process for identifying skin tone and undertone.</p>
+    </div>
+
+    <div>
+      <i>03</i>
+      <h3>Ingredient Explanation</h3>
+      <p><strong>Process solution:</strong> Explain ingredient functions using simple, customer-friendly language.</p>
+    </div>
+
+    <div>
+      <i>04</i>
+      <h3>Customer Feedback</h3>
+      <p><strong>Process solution:</strong> Encourage customers to leave ratings, comments and photos after purchase.</p>
+    </div>
+
+    <div>
+      <i>05</i>
+      <h3>Clear Ingredient Warning</h3>
+      <p><strong>Process solution:</strong> Display ingredient labels and warnings more clearly.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SOLUTIONS ================= -->
+<section class="section dark-section" id="solutions">
+  <div class="section-heading">
+    <p class="eyebrow">05 • SOBELLA SOLUTIONS</p>
+    <h2>Smart features for a <em>more confident choice.</em></h2>
+    <p>Digital solutions that can help customers understand products before purchasing.</p>
+  </div>
+
+  <div class="solution-grid five-solutions">
+    <div class="solution-card">
+      <div class="icon">🧴</div>
+      <h3>Skin Type Product Finder</h3>
+      <p>Customers select their skin type and receive recommended products.</p>
+    </div>
+
+    <div class="solution-card">
+      <div class="icon">🎨</div>
+      <h3>Virtual Shade Finder</h3>
+      <p>The system recommends a foundation shade based on the customer's skin tone and undertone.</p>
+    </div>
+
+    <div class="solution-card">
+      <div class="icon">🔎</div>
+      <h3>Ingredients Information System</h3>
+      <p>Customers can click each ingredient to learn about its function in simple language.</p>
+    </div>
+
+    <div class="solution-card">
+      <div class="icon">⭐</div>
+      <h3>Verified Customer Review System</h3>
+      <p>Display ratings, reviews, skin type and customer photos to provide more useful references.</p>
+    </div>
+
+    <div class="solution-card">
+      <div class="icon">🌿</div>
+      <h3>Ingredients Filter</h3>
+      <p>Customers can filter products such as “Fragrance-free” or “Suitable for Sensitive Skin”.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SOLUTIONS TO PROBLEMS ================= -->
+<section class="section" id="solutions-problem">
+  <div class="section-heading">
+    <p class="eyebrow">06 • SOLUTIONS IN ACTION</p>
+    <h2>Turning customer concerns into <em>better experiences.</em></h2>
+  </div>
+
+  <div class="comparison">
+    <div class="compare-item problem">
+      <h3>CUSTOMER CONCERNS</h3>
+      <p>“I am not sure which product is right for my skin.”</p>
+      <p>“I do not know which foundation shade matches me.”</p>
+      <p>“Ingredient names are difficult to understand.”</p>
+      <p>“I want to see real customer experiences.”</p>
+    </div>
+
+    <div class="arrow">→</div>
+
+    <div class="compare-item answer">
+      <h3>WITH SOBELLA</h3>
+      <p>Skin Type Product Finder gives personalised product suggestions.</p>
+      <p>Virtual Shade Finder helps identify a suitable shade.</p>
+      <p>Ingredients Information System explains each ingredient.</p>
+      <p>Verified Customer Review System provides ratings, reviews and photos.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= BENEFITS ================= -->
+<section class="section benefits" id="benefits">
+  <div class="benefit-copy">
+    <p class="eyebrow">07 • SOBELLA PRODUCT BENEFITS</p>
+    <h2>Beauty products with <em>purpose.</em></h2>
+    <p>
+      SOBELLA products are designed to support a practical beauty routine and
+      give customers a more comfortable makeup experience.
+    </p>
+  </div>
+
+  <div class="benefit-list product-benefits">
+    <div>
+      <b>01</b>
+      <span><strong>SOBELLA Hydration Booster Moisturizer</strong>
+      Helps hydrate the skin, leaving it softer and smoother, helping makeup
+      look more even and reducing patchy makeup caused by dry skin.</span>
+    </div>
+
+    <div>
+      <b>02</b>
+      <span><strong>SOBELLA Brightening Primer</strong>
+      Helps the skin feel smoother, provides a natural brightening effect and
+      helps foundation apply more evenly.</span>
+    </div>
+
+    <div>
+      <b>03</b>
+      <span><strong>SOBELLA Tinted Lip Oil</strong>
+      Helps provide hydration, a glossy finish and a fuller-looking lip
+      appearance. It can also be used as a lip treatment before bedtime.</span>
+    </div>
+
+    <div>
+      <b>04</b>
+      <span><strong>SOBELLA Creamy Corrector</strong>
+      Helps neutralize skin discoloration such as dark circles, redness and
+      uneven skin tone before concealer or foundation.</span>
+    </div>
+
+    <div>
+      <b>05</b>
+      <span><strong>SOBELLA Blusher</strong>
+      Adds natural colour to the cheeks with an easy-to-blend formula and
+      can also be built up for a more glamorous makeup look.</span>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PRODUCTS ================= -->
+<section class="section products-section" id="products">
+  <div class="section-heading product-heading">
+    <p class="eyebrow">07 • SHOP SOBELLA</p>
+    <h2>Your new <em>beauty essentials.</em></h2>
+    <p>Choose a category or browse all products. Click <strong>Add to Cart</strong> to shop.</p>
+  </div>
+
+  <div class="category-buttons">
+    <button class="category-btn active" data-filter="all">All Products</button>
+    <button class="category-btn" data-filter="lip-oil">Lip Oil</button>
+    <button class="category-btn" data-filter="lipstick">Lipstick</button>
+    <button class="category-btn" data-filter="blusher">Blusher</button>
+    <button class="category-btn" data-filter="eyeshadow">Eyeshadow</button>
+  </div>
+
+  <div class="products-grid">
+
+    <!-- PRODUCT 1 -->
+    <article class="product" data-category="lip-oil">
+      <div class="product-img">
+        <img src="images/cherry-dew-lip-oil.png" alt="Cherry Dew Lip Oil">
+        <span class="product-badge">LIP OIL</span>
+      </div>
+
+      <div class="product-info">
+        <span>LIP OIL</span>
+        <h3>Cherry Dew Lip Oil</h3>
+        <p class="product-description">A glossy, fresh and juicy finish for a fresh-looking lip.</p>
+        <div class="product-bottom">
+          <strong>RM 38.00</strong>
+          <button class="add-cart" data-name="Cherry Dew Lip Oil" data-price="38.00">＋ Add to Cart</button>
+        </div>
+      </div>
+    </article>
+
+    <!-- PRODUCT 2 -->
+    <article class="product" data-category="lipstick">
+      <div class="product-img">
+        <img src="images/soft-matte-liquid-lipstick.png" alt="Soft Matte Liquid Lipstick">
+        <span class="product-badge">LIPSTICK</span>
+      </div>
+
+      <div class="product-info">
+        <span>LIPSTICK</span>
+        <h3>Soft Matte Liquid Lipstick</h3>
+        <p class="product-description">A soft matte finish with an elegant colour for an everyday look.</p>
+        <div class="product-bottom">
+          <strong>RM 38.00</strong>
+          <button class="add-cart" data-name="Soft Matte Liquid Lipstick" data-price="38.00">＋ Add to Cart</button>
+        </div>
+      </div>
+    </article>
+
+    <!-- PRODUCT 3 -->
+    <article class="product" data-category="blusher">
+      <div class="product-img">
+        <img src="images/cherry-pink-latte-blusher.png" alt="Cherry Pink Latte Edition Blusher">
+        <span class="product-badge">BLUSHER</span>
+      </div>
+
+      <div class="product-info">
+        <span>BLUSHER</span>
+        <h3>Cherry Pink Latte Edition</h3>
+        <p class="product-description">A soft pink flush for a fresh and sweet cheek look.</p>
+        <div class="product-bottom">
+          <strong>RM 45.00</strong>
+          <button class="add-cart" data-name="Cherry Pink Latte Edition Blusher" data-price="45.00">＋ Add to Cart</button>
+        </div>
+      </div>
+    </article>
+
+    <!-- PRODUCT 4 -->
+    <article class="product" data-category="eyeshadow">
+      <div class="product-img">
+        <img src="images/cherry-pink-latte-eyeshadow.png" alt="Cherry Pink Latte Edition Eyeshadow">
+        <span class="product-badge">EYESHADOW</span>
+      </div>
+
+      <div class="product-info">
+        <span>EYESHADOW</span>
+        <h3>Cherry Pink Latte Edition</h3>
+        <p class="product-description">A soft, wearable palette for natural to glamorous eye looks.</p>
+        <div class="product-bottom">
+          <strong>RM 45.00</strong>
+          <button class="add-cart" data-name="Cherry Pink Latte Edition Eyeshadow" data-price="45.00">＋ Add to Cart</button>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- ================= ABOUT ME ================= -->
+<section class="section about" id="about">
+  <div class="about-photo personal-photo">
+    <div class="photo-frame">
+      <img src="images/about-me-nur-anis.jpg" alt="Nur Anis Amalina">
+      <span class="photo-tag">NUR ANIS AMALINA</span>
+    </div>
+  </div>
+  <div class="about-copy">
+    <p class="eyebrow">09 • ABOUT ME</p>
+    <h2>Meet the person behind <em>this SOBELLA website.</em></h2>
+    <p>Hi, I’m <strong>Nur Anis Amalina binti Mohd Mahyudin</strong>. This website project combines beauty, confidence and user-friendly digital experiences inspired by the SOBELLA brand.</p>
+    <div class="personal-details">
+      <div><span>FULL NAME</span><strong>Nur Anis Amalina binti Mohd Mahyudin</strong></div>
+      <div><span>PHONE</span><strong>011-3535 4047</strong></div>
+      <div><span>EMAIL</span><strong>anisdin2005@gmail.com</strong></div>
+      <div><span>DATE OF BIRTH</span><strong>5 April 2005</strong></div>
+    </div>
+    <div class="location-cards">
+      <div class="location-card"><span>BASED IN</span><strong>Kelantan</strong></div>
+      <div class="location-card"><span>STAYING IN</span><strong>Kedah</strong></div>
+    </div>
+    <div class="get-to-know">
+      <div class="get-to-know-head"><span class="mini-label">GET TO KNOW ME</span><span class="sparkle">✦</span></div>
+      <p>Hi, it’s me <strong>Nur Anis Amalina</strong>, but people call me <strong>Anis</strong>. I am a first-year <strong>Interactive Media Technology</strong> student at <strong>Universiti Malaysia Perlis (UniMAP)</strong>.</p>
+      <p>I love purple things. Pink is also one of my favourite colours because it has the ability to make me feel relaxed.</p>
+      <div class="personality-pills"><span>💜 Purple Lover</span><span>🌸 Pink Mood</span><span>🎨 Creative Mind</span><span>💻 Interactive Media</span></div>
+    </div>
+    <blockquote>“One day, all your hard work will pay off.”</blockquote>
+    <div class="owner-note"><strong>WEBSITE CREATOR</strong><span>Beauty • Confidence • Self Expression</span></div>
+  </div>
+</section>
+<!-- ================= CTA ================= -->
+<section class="final-cta">
+  <p class="eyebrow">YOUR BEAUTY. YOUR RULES.</p>
+  <h2>Ready to meet your <em>new favorite look?</em></h2>
+  <a href="#products" class="btn primary">Shop Sobella →</a>
+</section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="footer-brand">
+    <img src="images/sobella-logo.png" alt="SOBELLA">
+    <p>Beauty that feels like you.</p>
+  </div>
+
+  <div class="footer-links">
+    <a href="#home">Home</a>
+    <a href="#products">Products</a>
+    <a href="#about">About</a>
+  </div>
+
+  <p>© 2026 SOBELLA Cosmetics. All rights reserved.</p>
+</footer>
+
+<!-- ================= CART PANEL ================= -->
+<div class="cart-panel" id="cartPanel">
+  <div class="cart-head">
+    <div>
+      <p class="eyebrow">SOBELLA SHOPPING BAG</p>
+      <h2>Your Cart</h2>
+    </div>
+    <button id="closeCart" aria-label="Tutup cart">×</button>
+  </div>
+
+  <div id="cartItems" class="cart-items">
+    <div class="empty-cart">
+      <div class="empty-icon">🛍️</div>
+      <p>Your cart is empty.</p>
+      <small>Add your favorite Sobella products.</small>
+    </div>
+  </div>
+
+  <div class="cart-bottom">
+    <div>
+      <span>Total</span>
+      <strong id="cartTotal">RM 0.00</strong>
+    </div>
+    <button class="checkout" id="checkout">Checkout</button>
+  </div>
+</div>
+
+<div class="overlay" id="overlay"></div>
+<button class="to-top" id="toTop">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
