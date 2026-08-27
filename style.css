@@ -1230,4 +1230,113 @@ header{
   color:#fff !important;
   background:#5a2528 !important;
 }
-.conclusion-box
+
+/* =================================
+   CONCLUSION SECTION
+================================= */
+
+.conclusion-section {
+    width: 100%;
+    padding: 40px 20px 80px;
+    box-sizing: border-box;
+}
+
+/* Main Conclusion Box */
+.conclusion-box {
+    width: 90%;
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 40px 50px;
+
+    background: rgba(255, 255, 255, 0.88);
+
+    border: 1px solid rgba(139, 89, 101, 0.30);
+    border-radius: 22px;
+
+    box-shadow: 0 10px 30px rgba(80, 50, 60, 0.12);
+
+    box-sizing: border-box;
+}
+
+/* Conclusion Title */
+.conclusion-box h2 {
+    margin: 0 0 25px;
+
+    font-size: 20px;
+    font-weight: 700;
+
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: #4b2630;
+}
+
+/* Paragraphs */
+.conclusion-box p {
+    margin: 0 0 20px;
+
+    font-size: 14px;
+    line-height: 1.9;
+
+    color: #4a3a3d;
+
+    text-align: justify;
+}
+
+/* Decorative Line */
+.conclusion-line {
+    width: 70px;
+    height: 3px;
+
+    margin: 25px 0 20px;
+
+    background: #8b5965;
+    border-radius: 10px;
+}
+
+/* Tagline */
+.conclusion-box .conclusion-tagline {
+    margin: 0;
+
+    font-size: 12px;
+    font-weight: 600;
+
+    letter-spacing: 2px;
+
+    color: #8b5965;
+
+    text-align: left;
+}
+
+
+/* =================================
+   RESPONSIVE DESIGN
+================================= */
+
+@media (max-width: 768px) {
+
+    .conclusion-section {
+        padding: 30px 15px 60px;
+    }
+
+    .conclusion-box {
+        width: 95%;
+        padding: 30px 25px;
+        border-radius: 18px;
+    }
+
+    .conclusion-box h2 {
+        font-size: 17px;
+        letter-spacing: 2px;
+    }
+
+    .conclusion-box p {
+        font-size: 13px;
+        line-height: 1.8;
+        text-align: left;
+    }
+
+    .conclusion-box .conclusion-tagline {
+        font-size: 11px;
+    }
+}
